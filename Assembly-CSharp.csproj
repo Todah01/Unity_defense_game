@@ -40,10 +40,13 @@
     <Analyzer Include="C:\Users\wobo5\PersonalProject\2022.3.8f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.Properties.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\Script\TargetRotation.cs" />
-     <Compile Include="Assets\EnemyHealth.cs" />
+     <Compile Include="Assets\Script\Bank.cs" />
+     <Compile Include="Assets\Script\Enemy.cs" />
+     <Compile Include="Assets\Script\EnemyHealth.cs" />
      <Compile Include="Assets\Script\WayPoint.cs" />
+     <Compile Include="Assets\Script\TargetLocator.cs" />
      <Compile Include="Assets\Script\Coodinatel_Labeler.cs" />
+     <Compile Include="Assets\Script\ObjectPool.cs" />
      <Compile Include="Assets\Script\EnemyMover.cs" />
      <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Overlay.shader" />

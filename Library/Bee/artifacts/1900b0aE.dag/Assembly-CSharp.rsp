@@ -357,10 +357,13 @@
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEngine.UI.ref.dll"
 -analyzer:"C:/Users/wobo5/PersonalProject/2022.3.8f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.Properties.SourceGenerator.dll"
 -analyzer:"C:/Users/wobo5/PersonalProject/2022.3.8f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.SourceGenerators.dll"
-"Assets/EnemyHealth.cs"
+"Assets/Script/Bank.cs"
 "Assets/Script/Coodinatel_Labeler.cs"
+"Assets/Script/Enemy.cs"
+"Assets/Script/EnemyHealth.cs"
 "Assets/Script/EnemyMover.cs"
-"Assets/Script/TargetRotation.cs"
+"Assets/Script/ObjectPool.cs"
+"Assets/Script/TargetLocator.cs"
 "Assets/Script/WayPoint.cs"
 -langversion:9.0
 
