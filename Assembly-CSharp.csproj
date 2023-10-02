@@ -41,6 +41,7 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\Script\Bank.cs" />
+     <Compile Include="Assets\Script\Tower.cs" />
      <Compile Include="Assets\Script\Enemy.cs" />
      <Compile Include="Assets\Script\EnemyHealth.cs" />
      <Compile Include="Assets\Script\WayPoint.cs" />

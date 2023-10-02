@@ -364,6 +364,7 @@
 "Assets/Script/EnemyMover.cs"
 "Assets/Script/ObjectPool.cs"
 "Assets/Script/TargetLocator.cs"
+"Assets/Script/Tower.cs"
 "Assets/Script/WayPoint.cs"
 -langversion:9.0
 
