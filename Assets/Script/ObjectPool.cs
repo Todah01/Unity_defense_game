@@ -6,8 +6,8 @@ using UnityEngine;
 public class ObjectPool : MonoBehaviour
 {
     [SerializeField] GameObject enemyPrefab;
-    [SerializeField] int poolSize = 5;
-    [SerializeField] float spawnTime = 1f;
+    [SerializeField] [Range(0f, 50f)] int poolSize = 5;
+    [SerializeField] [Range(0.1f, 30f)] float spawnTime = 1f;
 
     GameObject[] pool;
     private void Awake() {
@@ -28,14 +28,6 @@ public class ObjectPool : MonoBehaviour
         StartCoroutine(SpawnEnemy());
     }
 
-    IEnumerator SpawnEnemy()
-    {
-        while(true){
-            EnableObjectInPool();
-            yield return new WaitForSeconds(spawnTime);
-        }
-    }
-
     private void EnableObjectInPool()
     {
         for(int i = 0; i < pool.Length; i++){
@@ -43,6 +35,14 @@ public class ObjectPool : MonoBehaviour
                 pool[i].SetActive(true);
                 return;
             }
+        }
+    }
+
+    IEnumerator SpawnEnemy()
+    {
+        while(true){
+            EnableObjectInPool();
+            yield return new WaitForSeconds(spawnTime);
         }
     }
 }

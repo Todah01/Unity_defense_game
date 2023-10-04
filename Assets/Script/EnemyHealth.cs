@@ -25,7 +25,7 @@ public class EnemyHealth : MonoBehaviour
     {
         currentHitPoints--;
         if(currentHitPoints <= 0){
-            Destroy(gameObject);
+            this.gameObject.SetActive(false);
             maxHitPoints += difficultyRamp;
             enemy.RewardGold();
         }
