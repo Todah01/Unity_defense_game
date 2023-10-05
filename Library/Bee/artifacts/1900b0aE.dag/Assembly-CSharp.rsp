@@ -362,6 +362,8 @@
 "Assets/Script/Enemy.cs"
 "Assets/Script/EnemyHealth.cs"
 "Assets/Script/EnemyMover.cs"
+"Assets/Script/GridManager.cs"
+"Assets/Script/Node.cs"
 "Assets/Script/ObjectPool.cs"
 "Assets/Script/TargetLocator.cs"
 "Assets/Script/Tower.cs"

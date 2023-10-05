@@ -49,6 +49,8 @@
      <Compile Include="Assets\Script\Coodinatel_Labeler.cs" />
      <Compile Include="Assets\Script\ObjectPool.cs" />
      <Compile Include="Assets\Script\EnemyMover.cs" />
+     <Compile Include="Assets\Script\Node.cs" />
+     <Compile Include="Assets\Script\GridManager.cs" />
      <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Overlay.shader" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap.shader" />
