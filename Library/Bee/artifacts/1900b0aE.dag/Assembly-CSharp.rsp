@@ -365,6 +365,7 @@
 "Assets/Script/GridManager.cs"
 "Assets/Script/Node.cs"
 "Assets/Script/ObjectPool.cs"
+"Assets/Script/pathfinder.cs"
 "Assets/Script/TargetLocator.cs"
 "Assets/Script/Tower.cs"
 "Assets/Script/WayPoint.cs"
