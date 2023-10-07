@@ -365,8 +365,9 @@
 "Assets/Script/GridManager.cs"
 "Assets/Script/Node.cs"
 "Assets/Script/ObjectPool.cs"
-"Assets/Script/pathfinder.cs"
+"Assets/Script/PathFinder.cs"
 "Assets/Script/TargetLocator.cs"
+"Assets/Script/Tile_Fixing...cs"
 "Assets/Script/Tower.cs"
 "Assets/Script/WayPoint.cs"
 -langversion:9.0

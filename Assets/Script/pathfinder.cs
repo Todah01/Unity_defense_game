@@ -3,7 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class pathfinder : MonoBehaviour
+public class PathFinder : MonoBehaviour
 {
     [SerializeField] Vector2Int startCoordinates;
     [SerializeField] Vector2Int destinationCoordinates;

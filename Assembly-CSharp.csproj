@@ -43,12 +43,13 @@
      <Compile Include="Assets\Script\Bank.cs" />
      <Compile Include="Assets\Script\Tower.cs" />
      <Compile Include="Assets\Script\Enemy.cs" />
-     <Compile Include="Assets\Script\pathfinder.cs" />
      <Compile Include="Assets\Script\EnemyHealth.cs" />
      <Compile Include="Assets\Script\WayPoint.cs" />
      <Compile Include="Assets\Script\TargetLocator.cs" />
+     <Compile Include="Assets\Script\Tile_Fixing...cs" />
      <Compile Include="Assets\Script\Coodinatel_Labeler.cs" />
      <Compile Include="Assets\Script\ObjectPool.cs" />
+     <Compile Include="Assets\Script\PathFinder.cs" />
      <Compile Include="Assets\Script\EnemyMover.cs" />
      <Compile Include="Assets\Script\Node.cs" />
      <Compile Include="Assets\Script\GridManager.cs" />
