@@ -367,9 +367,8 @@
 "Assets/Script/ObjectPool.cs"
 "Assets/Script/PathFinder.cs"
 "Assets/Script/TargetLocator.cs"
-"Assets/Script/Tile_Fixing...cs"
+"Assets/Script/Tile.cs"
 "Assets/Script/Tower.cs"
-"Assets/Script/WayPoint.cs"
 -langversion:9.0
 
 /deterministic
