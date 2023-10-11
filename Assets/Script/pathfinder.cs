@@ -1,6 +1,7 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using System.Numerics;
 using UnityEngine;
 
 public class PathFinder : MonoBehaviour
@@ -33,8 +34,11 @@ public class PathFinder : MonoBehaviour
     }
 
     public List<Node> GetNewPath(){
+        return GetNewPath(startCoordinates);
+    }
+    public List<Node> GetNewPath(Vector2Int coordinates){
         gridManager.ResetNode();
-        BFS();
+        BFS(coordinates);
         return BuildPath();
     }
 
@@ -57,7 +61,7 @@ public class PathFinder : MonoBehaviour
         }
     }
 
-    void BFS(){
+    void BFS(Vector2Int coordinates){
         startNode.isWalkable = true;
         destinationNode.isWalkable = true;
 
@@ -65,8 +69,8 @@ public class PathFinder : MonoBehaviour
         reached.Clear();
 
         bool isRunning = true;
-        frontier.Enqueue(startNode);
-        reached.Add(startCoordinates, startNode);
+        frontier.Enqueue(grid[coordinates]);
+        reached.Add(coordinates, startNode);
 
         while(frontier.Count > 0 && isRunning){
             currentSearchNode = frontier.Dequeue();
@@ -113,5 +117,9 @@ public class PathFinder : MonoBehaviour
         }
 
         return false;
+    }
+
+    public void NotifyReceivers(){
+        BroadcastMessage("RecalculatePath", false, SendMessageOptions.DontRequireReceiver);
     }
 }
