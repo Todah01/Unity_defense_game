@@ -293,8 +293,8 @@ MonoBehaviour:
     y: 0
     width: 1505
     height: 341
-  m_MinSize: {x: 101, y: 121}
-  m_MaxSize: {x: 4001, y: 4021}
+  m_MinSize: {x: 100, y: 100}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 17}
   m_Panes:
   - {fileID: 17}
@@ -884,7 +884,7 @@ MonoBehaviour:
   m_Rotation:
     m_Target: {x: 0.521309, y: 0.0051202974, z: -0.003128131, w: 0.8533402}
     speed: 2
-    m_Value: {x: -0.521309, y: -0.0051202974, z: 0.003128131, w: -0.8533402}
+    m_Value: {x: 0.521312, y: 0.0051203268, z: -0.0031281488, w: 0.8533451}
   m_Size:
     m_Target: 34.869812
     speed: 2
@@ -952,7 +952,7 @@ MonoBehaviour:
       scrollPos: {x: 0, y: 0}
       m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: 5ea4ffffa2a4ffff60bdfffff2c7ffff36c8ffff10e1ffff02fbffff
+      m_ExpandedIDs: c4e1ffff02fbffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -1134,7 +1134,8 @@ MonoBehaviour:
     m_ShowAllHits: 0
     m_SkipHidden: 0
     m_SearchArea: 1
-    m_Folders: []
+    m_Folders:
+    - Assets/Scenes/GameMath
     m_Globs: []
     m_OriginalText: 
     m_ImportLogFlags: 0
@@ -1178,7 +1179,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: ffffffff00000000626000006460000066600000
+    m_ExpandedIDs: ffffffff000000006260000064600000a8600000d6600000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 

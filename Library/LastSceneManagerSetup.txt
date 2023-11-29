@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/Scenes/Realm Rush.unity
+- path: Assets/Scenes/GameMath/GameMathTest.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0
